@@ -1,0 +1,44 @@
+#Content.f-ms { width:100%; z-index:0; clear:both; overflow:hidden }
+#ContentWrap.f-ms { width:100%; min-height:100px; z-index:0; margin-left:auto; margin-right:auto; overflow:hidden }
+#Body.f-ms { width:100%; z-index:0; clear:both; overflow:hidden }
+#Body-Wrap.f-ms { width:100%; min-height:100px; max-width:1200px; z-index:0; margin-left:auto; margin-right:auto; overflow:hidden }
+#After-Body.f-ms { width:100%; z-index:0; clear:both; overflow:hidden }
+#After-Body-Wrap.f-ms { width:100%; min-height:100px; max-width:1200px; z-index:0; margin-left:auto; margin-right:auto; overflow:hidden }
+#Footer.f-ms { width:100%; z-index:0; clear:both; background-color:#1c1c1c; overflow:hidden }
+#Footer-Wrap.f-ms { width:100%; z-index:0; margin-left:auto; margin-right:auto; overflow:hidden }
+#FBefore.f-ms { width:100%; min-height:100px; max-width:1200px; z-index:0; clear:both; margin-left:auto; margin-right:auto }
+#Menufooter.f-ms { z-index:0; float:left; padding:4% }
+#Social.f-ms { z-index:0; float:left; padding:4% 2% }
+#facebooklogo.f-ms { width:22px; overflow:hidden }
+#instagramlogo.f-ms { width:22px; overflow:hidden }
+#Address.f-ms { z-index:0; float:right; padding:4% 2% }
+#FAfter.f-ms { width:100%; z-index:0; clear:both; margin-left:auto; margin-right:auto; background-color:#000 }
+#LogoGray.f-ms { z-index:0; float:right; padding:10px }
+#dconebeamlogogray.f-ms { width:100px; overflow:hidden }
+#LogoGray1.f-ms { z-index:0; float:left; padding:24px }
+#Header.f-ms { position:fixed; left:0px; top:0px; width:100%; z-index:1 }
+#Header-Wrap.f-ms { width:100%; z-index:0; margin-left:auto; margin-right:auto }
+#Logo.f-ms { z-index:0; float:left; padding:10px }
+#dconebeamlogo.f-ms { width:181px; overflow:hidden }
+#Menu.f-ms { height:60px; z-index:0; float:right; padding:20px }
+@media screen and (max-width:1024px)
+{
+	#Menu.f-ms { height:40px; padding:30px }
+}
+@media screen and (max-width:480px)
+{
+	#FBefore.f-ms { overflow:hidden }
+	#Menufooter.f-ms { width:84%; float:none; clear:both; padding:8%; margin-left:auto; margin-right:auto }
+	#Social.f-ms { width:96%; clear:both }
+	#Address.f-ms { width:96%; float:left; clear:both }
+	#LogoGray.f-ms { width:95.83% }
+	#LogoGray1.f-ms { width:90% }
+}
+@media screen and (max-width:320px)
+{
+	#Footer.f-ms { overflow:visible }
+	#Address.f-ms { width:84%; padding:8% }
+	#FAfter.f-ms { overflow:hidden }
+	#LogoGray.f-ms { width:93.75% }
+	#LogoGray1.f-ms { width:85% }
+}

@@ -1,0 +1,92 @@
+form { margin:0px }
+body > form { height:100% }
+img { margin:0px; border-style:none }
+button { margin:0px; border-style:none; padding:0px; background-color:transparent; vertical-align:top }
+table { empty-cells:hide }
+td { padding:0px }
+.f-sp { font-size:1px; visibility:hidden }
+.f-lp { margin-bottom:0px }
+.f-fp { margin-top:0px }
+*:hover { transition:all 0.25s ease-in-out }
+.CenterAll { justify-content:center; display:flex; -webkit-box-align:center; -moz-box-align:center; -ms-flex-align:center; -webkit-align-items:center; align-items:center; -webkit-box-pack:center; -moz-box-pack:center; -ms-flex-pack:center; -webkit-justify-content:center }
+.hideme { opacity:0 }
+.overlay:active { opacity:.9 }
+.overlay:hover { opacity:.9 }
+@import { @import:url('https://fonts.googleapis.com/css?family=Open+Sans') }
+a.badge { color:#f0f; background-color:#000; margin-top:5em; margin-bottom:5em; padding:5em 6em; display:inline-block; border-bottom:none }
+a.badge:hover { color:#fff; background-color:#ff0 }
+em { font-style:italic }
+h1 { color:#424242; font-family:futura-pt,sans-serif;; font-size:20px; line-height:1.5; margin-top:0px; margin-bottom:20px; text-align:center }
+h1:first-child { margin-top:0px }
+h1,h2,h3,Menu { -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility }
+h2 { color:#424242; font-family:futura-pt,sans-serif;; font-style:italic; text-decoration:none; font-size:25px; line-height:1.5; margin-top:5px; margin-bottom:5px; text-align:center }
+h2:first-child { margin-top:0px }
+h3 { font-weight:bold; font-size:14px }
+h3:first-child { margin-top:0px }
+strong { font-weight:bold }
+.Blue { color:#22235b }
+.Weigth400 { font-weight:400 }
+.Weigth100 { font-weight:100 }
+h1.Big { color:#424242; font-family:adobe-garamond-pro,serif;; font-size:50px; letter-spacing:0.08em; line-height:1; margin-top:0px; margin-bottom:20px; text-align:center }
+h1:first-child { margin-top:0px }
+.Weigth600 { font-weight:600 }
+.Weigth300 { font-weight:300 }
+.Cake { color:#cdac8a }
+.button { color:#22235b; font-family:futura-pt,sans-serif;; font-size:12px; text-align:center; content:""; text-transform:uppercase; transition:all .1s; border:1px solid #ccc; display:inline-block; padding:18px; letter-spacing:.26em; line-height:1; position:absolute }
+.button2 { color:#22235b; font-family:futura-pt,sans-serif;; font-size:12px; text-align:center; text-transform:uppercase; transition:all .1s; padding:18px; letter-spacing:.26em; line-height:1; border:1px solid #ccc }
+.Copyright { color:#8a8a8c; font-family:futura-pt,sans-serif;; font-size:12px; text-align:center }
+h1.style2 { color:#424242; font-family:futura-pt,sans-serif;; font-size:20px; line-height:1.5; margin-top:0px; margin-bottom:20px; text-align:center }
+h1:first-child { margin-top:0px }
+.Weigth500 { font-weight:500 }
+.BodyHome { color:#fff; font-family:futura-pt,sans-serif;; font-size:18px; letter-spacing:0.03em; line-height:1.8; text-align:left }
+.MostBlack { color:#1c1c1c }
+.Weigth200 { font-weight:200 }
+.Weigth800 { font-weight:800 }
+.MenuFooter { font-family:futura-pt,sans-serif;; font-size:14px; letter-spacing:0.05em; line-height:1 }
+.Gray { color:#eee }
+.Calc100 { height:calc(100vh); -webkit-transform:translateX(0px); -ms-transform:translateX(0px); tranform:translateX(0px) }
+.SloganHome { -webkit-transform:translate(-50%, -50%); -ms-tranform:translate(-50%, -50%); transform:translate(-50%, -50%); top:50%; left:50%; display:inline-block; position:absolute }
+.ScrollDown { -webkit-transform:translate(-50%, -50%); -ms-tranform:translate(-50%, -50%); transform:translate(-50%, -50%); bottom:15px; left:50%; display:inline-block; position:absolute }
+.BgBlue { background-image:linear-gradient(0deg, #1398aa, rgba(19, 152, 170, 0)); }
+.FiltroBG { bacldrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px); background-color:rgba(255, 255, 255, 0.5) ; transition:all 0.3s; -webkit-transition:all 0.3s; -ms-transition:all 0.3s; -moz-transition:all 0.3s; -o-transition:all 0.3s }
+.Menu { font-family:futura-pt,sans-serif;; font-size:16px; letter-spacing:0.05em }
+.White { color:#fff }
+h2.Left { color:#424242; font-family:futura-pt,sans-serif;; font-size:40px; line-height:1; margin-top:5px; margin-bottom:5px; text-align:left }
+h2:first-child { margin-top:0px }
+h1.Left { color:#424242; font-family:futura-pt,sans-serif;; font-size:20px; line-height:1.5; margin-top:0px; margin-bottom:20px; text-align:left }
+h1:first-child { margin-top:0px }
+.Weigth700 { font-weight:700 }
+.style6 { text-align:center }
+.style1 { color:#13009b }
+.style3 { color:#6b6b6b; font-family:futura-pt,sans-serif;; font-size:18px; letter-spacing:0.03em; line-height:1.8; text-align:center }
+h2.style2 { color:#424242; font-family:futura-pt,sans-serif;; font-style:italic; text-decoration:none; font-size:25px; line-height:1.5; margin-top:5px; margin-bottom:5px; text-align:left }
+h2:first-child { margin-top:0px }
+.Form { color:#1c1c1c; font-family:futura-pt,sans-serif;; font-size:18px; letter-spacing:0.03em; line-height:1.8; text-align:left; font-weight:300 }
+.style4 { color:#3a3a3a; text-decoration:none }
+@media screen and (max-width:768px)
+{
+	h1 { font-size:19px }
+	h2 { font-size:22px }
+	h1.Big { font-size:40px }
+	.Middle { text-align:center }
+	h2.Left { font-size:22px }
+	h1.Left { font-size:19px }
+	h2.style2 { font-size:22px }
+}
+@media screen and (max-width:480px)
+{
+	h2 { font-size:20px }
+	h1.Big { font-size:35px }
+	.MenuFooter { text-align:center }
+	h2.Left { font-size:20px }
+	h2.style2 { font-size:20px }
+}
+@media screen and (max-width:320px)
+{
+	h1 { font-size:18px }
+	h2 { font-size:19px }
+	h1.Big { font-size:30px }
+	h2.Left { font-size:19px }
+	h1.Left { font-size:18px }
+	h2.style2 { font-size:19px }
+}

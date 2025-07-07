@@ -1,0 +1,85 @@
+body { margin:0px; height:100% }
+html { height:100% }
+a:link { color:#1c1c1c; text-decoration:none }
+a:visited { color:#1c1c1c; text-decoration:none }
+a:hover { color:#53c5d4; text-decoration:none }
+a:active { color:#53c5d4; text-decoration:none }
+#PageDiv { position:relative; min-height:100% }
+#Content { width:100%; z-index:0; clear:both; overflow:hidden }
+#ContentWrap { width:100%; z-index:0; margin-left:auto; margin-right:auto }
+#Mapa { width:100%; min-height:600px; vertical-align:middle; display:inline-block }
+#Body { width:100%; z-index:0; clear:both; background-image:url(../Resources/conebeam-ruben-ro2.jpg); background-position:center; background-size:cover; background-repeat:no-repeat; overflow:hidden }
+#Description { width:48%; z-index:0; float:right; padding:6% }
+#Nombre { width:66.67%; padding:8px; margin:5px; border:solid #eee 1px }
+#Tel { width:66.67%; padding:8px; margin:5px; border:solid #eee 1px }
+#Email { width:66.67%; padding:8px; margin:5px; border:solid #eee 1px }
+#Comentarios { width:66.67%; height:84px; padding:8px; margin:5px; border:solid #eee 1px }
+#Enviar { width:102px; vertical-align:middle; padding:8px; margin:5px; background-color:#53c5d4; border:solid #53c5d4 1px }
+#After-Body-Wrap { width:100%; z-index:0; margin-left:auto; margin-right:auto; background-image:url(../Resources/ccentro3d-conebea1.jpg); background-position:left; background-size:cover; overflow:hidden }
+#Box1 { width:33.67%; min-height:304px; z-index:0; float:left; padding:4%; margin-bottom:100px; background-color:#1c1c1c }
+#download { width:22px; vertical-align:middle; overflow:hidden }
+#FBefore { width:100%; min-height:242px; max-width:1200px; z-index:0; clear:both; margin-left:auto; margin-right:auto }
+#Menu { height:auto; overflow:visible; position:relative; z-index:9999 }
+#fwNav1 { float:right; padding:0; margin:0; list-style:none }
+#fwNav1 .fwNavItem { width:auto; position:relative; float:left; margin:0; padding:0; border-top:0; border-bottom:0 }
+#fwNav1 .fwNavItem a { display:block; color:#1C1C1C; text-decoration:none; padding:15px 20px 15px 20px; white-space:nowrap }
+#fwNav1 .fwFirstChild { border-left:0 }
+#fwNav1 .fwLastChild { border-right:0 }
+#fwNav1 .fwNavItem:hover > span a, #fwNav1 .fwNavItem:hover > a { color:#53C5D4; text-decoration:none }
+#fwNav1 .fwNavItem a:hover, #fwNav1 .fwNavItem span a:hover, #fwNav1 .fwNavItem a:focus { color:#53C5D4; text-decoration:none }
+#fwNav1 .fwNavItem a:active { color:#53C5D4; text-decoration:none }
+#fwNav1-toggle, .fwNav1-toggle-label { display:none }
+.fwNav1-toggle-label { width:30px; height:30px; overflow:hidden; background-image:url('../Resources/menu1.svg'); background-repeat:no-repeat; background-size:100%; float:right }
+#fwNav1 * .sub { visibility:hidden; position:absolute; left:-0; float:left; padding:0; margin:0; list-style:none; z-index:1 }
+#fwNav1 .sub * .sub { top:-0 }
+#fwNav1 .fwNavItem .sub .fwNavItem { display:block; margin:0; padding:0; left:0; width:100%; *width:auto; border-left:0; border-right:0; border-top:none; border-bottom:none }
+#fwNav1 * * * .sub { left:100%; top:0 }
+#fwNav1 .fwNavItem .sub .fwNavItem a { display:block; color:#EEEEEE; text-decoration:none; background:#53C5D4; padding:12px 10px 12px 10px; white-space:nowrap }
+#fwNav1 .fwNavItem .sub .fwFirstChild { border-top:0 }
+#fwNav1 .fwNavItem .sub .fwLastChild { border-bottom:0 }
+#fwNav1 .fwNavItem .sub .fwNavItem:hover > span a, #fwNav1 .fwNavItem .sub .fwNavItem:hover > a { color:#53C5D4; text-decoration:none; background:#FFFFFF }
+#fwNav1 .fwNavItem .sub .fwNavItem a:hover, #fwNav1 .fwNavItem .sub .fwNavItem span a:hover, #fwNav1 .fwNavItem .sub .fwNavItem a:focus { color:#53C5D4; text-decoration:none; background:#FFFFFF }
+#fwNav1 .fwNavItem .sub .fwNavItem a:active { color:#FFFFFF; text-decoration:none; background:#53C5D4 }
+#fwNav1 :hover > .sub { visibility:visible }
+#fwNav1 .fwNavItem a.fwCurrent, #fwNav1 .fwNavItem a.fwCurrent:hover { display:block; color:#53C5D4; font-weight:normal }
+#fwNav1 .fwNavItem .sub .fwNavItem a.fwCurrent, #fwNav1 .fwNavItem .sub .fwNavItem a.fwCurrent:hover { display:block; color:#FFFFFF; font-weight:normal; background:#53C5D4 }
+@media screen and (max-width:1024px)
+{
+	#fwNav1 { width:100%; right:0; left:0; margin-top:0px }
+	#fwNav1 .fwNavItem { box-sizing:border-box; float:none; overflow:hidden; width:100%; border-right:0; border-left:0 }
+	#fwNav1 .fwNavItem a { padding-top:20px; padding-bottom:20px; padding-left:20px; padding-right:20px }
+	#fwNav1 .fwFirstChild { border-top:0 }
+	#fwNav1 .fwLastChild { border-bottom:0 }
+	.fwNav1-toggle-label { display:block; position:relative; cursor:pointer; -webkit-touch-callout:none; -webkit-user-select:none; user-select:none }
+	.fwNavContainer1 { display:none; position:fixed; width:100%; top:0; right:0; bottom:0; left:100%; margin-right:-100%; background-color:#FFFFFF; -webkit-overflow-scrolling:touch; overflow:auto; float:none; -webkit-transition:.2s ease-out margin, .2s ease-out left; -moz-transition:.2s ease-out margin, .2s ease-out left; -ms-transition:.2s ease-out margin, .2s ease-out left; -o-transition:.2s ease-out margin, .2s ease-out left; transition:.2s ease-out margin, .2s ease-out left }
+	.fwNav1-toggle-close { background-image:url('../Resources/close1.svg'); margin:20px 20px 20px 20px }
+	.fwNavContainer1.fwMenuOn { margin-right:0; left:0 }
+	#fwNav1 .fwNavItem .sub .fwNavItem a { padding-top:20px; padding-bottom:20px; padding-right:20px; padding-left:40px }
+	#fwNav1 .fwNavItem .sub .sub .fwNavItem a { padding-left:60px }
+	#fwNav1 .fwNavItem .sub .sub .sub .fwNavItem a { padding-left:80px }
+	#fwNav1 .fwNavItem .sub { position:relative; visibility:visible; width:100%; left:0; top:0 }
+	#fwNav1 .fwNavItem .sub .fwNavItem { width:100% }
+	#fwNav1 .fwNavItem .sub .sub { left:0 }
+	#fwNav1 .fwNavItem .sub .sub .fwNavItem { border-left:none }
+	.fwMainPointer1, .fwSubPointer1 { display:none }
+	#fwNav1 .fwNavItem .sub .fwLastChild { border-bottom:none }
+	#fwNav1 .fwLastChild .sub .fwLastChild { border-bottom:0 }
+}
+@media screen and (max-width:768px)
+{
+	#Box1 { width:58.41% }
+}
+@media screen and (max-width:480px)
+{
+	#Body { background-image:none; background-size:auto }
+	#Description { width:88% }
+	#Box1 { width:78.88% }
+}
+@media screen and (max-width:320px)
+{
+	#Nombre { width:90.06% }
+	#Tel { width:90.06% }
+	#Email { width:90.06% }
+	#Comentarios { width:90.06% }
+	#Box1 { width:92% }
+}
